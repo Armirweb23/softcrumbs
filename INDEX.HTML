@@ -1,0 +1,147 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Soft Crumbs</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Soft Crumbs</h1>
+        <p>"The Side Soft of Crumbs"</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <h3>Choco Cupcake</h3>
+            <ul>
+                <li>Qokollatë e zezë</li>
+                <li>Miell</li>
+                <li>Sheqer</li>
+                <li>Vezë</li>
+                <li>Qumësht</li>
+            </ul>
+            <span class="price">1.50€</span>
+        </div>
+        <div class="product">
+            <h3>Vanilla Cupcake</h3>
+            <ul>
+                <li>Vanilje natyrale</li>
+                <li>Miell</li>
+                <li>Sheqer</li>
+                <li>Vezë</li>
+                <li>Gjalpë</li>
+            </ul>
+            <span class="price">1.40€</span>
+        </div>
+        <div class="product">
+            <h3>Crumbs Cupcake</h3>
+            <ul>
+                <li>Biskota të thërrmuara</li>
+                <li>Qumësht</li>
+                <li>Vezë</li>
+                <li>Sheqer</li>
+                <li>Krem djathi</li>
+            </ul>
+            <span class="price">1.60€</span>
+        </div>
+        <div class="product">
+            <h3>Tortë me Fruta Mali</h3>
+            <ul>
+                <li>Manaferra</li>
+                <li>Boronica</li>
+                <li>Pana e freskët</li>
+                <li>Sheqer</li>
+                <li>Biskota bazë</li>
+            </ul>
+            <span class="price">2.00€</span>
+        </div>
+        <div class="product">
+            <h3>Tortë e Kombinuar</h3>
+            <ul>
+                <li>Qokollatë</li>
+                <li>Vanilje</li>
+                <li>Pana</li>
+                <li>Fruta të ndryshme</li>
+                <li>Sheqer</li>
+            </ul>
+            <span class="price">2.00€</span>
+        </div>
+        <div class="product">
+            <h3>Caramel Cupcake</h3>
+            <ul>
+                <li>Karamel e shkrirë</li>
+                <li>Miell</li>
+                <li>Sheqer kafe</li>
+                <li>Gjalpë</li>
+                <li>Qumësht</li>
+            </ul>
+            <span class="price">1.80€</span>
+        </div>
+        <div class="product">
+            <h3>Strawberry Shortcake</h3>
+            <ul>
+                <li>Luleshtrydhe të freskëta</li>
+                <li>Pana</li>
+                <li>Miell</li>
+                <li>Sheqer</li>
+                <li>Vezë</li>
+            </ul>
+            <span class="price">1.90€</span>
+        </div>
+        <div class="product">
+            <h3>Sugarfree Cupcake</h3>
+            <ul>
+                <li>Miell integral</li>
+                <li>Banane</li>
+                <li>Vezë</li>
+                <li>Ekstrakt vanilje</li>
+                <li>Qumësht bajamesh</li>
+            </ul>
+            <span class="price">1.70€</span>
+        </div>
+    </section>
+
+    <section class="order-form">
+        <h2>Porosit tani</h2>
+        <form>
+            <label for="name">Emri:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Mbiemri:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="phone">Numri i telefonit:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Data e dërgesës:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="cake">Zgjidh llojin e tortës:</label>
+            <select id="cake" name="cake" required>
+                <option value="">-- Zgjidh një --</option>
+                <option value="choco">Choco Cupcake</option>
+                <option value="vanilla">Vanilla Cupcake</option>
+                <option value="crumbs">Crumbs Cupcake</option>
+                <option value="fruta">Tortë me Fruta Mali</option>
+                <option value="kombinuar">Tortë e Kombinuar</option>
+                <option value="caramel">Caramel Cupcake</option>
+                <option value="strawberry">Strawberry Shortcake</option>
+                <option value="sugarfree">Sugarfree Cupcake</option>
+            </select>
+
+            <button type="submit">Dërgo Porosinë</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Lokacioni:Prishtinë, Kosovë</p>
+        <p>PUNUAR NGA: ARMIR BAJGORA</p>
+    </footer>
+</body>
+</html>
